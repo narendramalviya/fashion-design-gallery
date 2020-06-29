@@ -4,7 +4,7 @@ import Modal from "../UI/Modal/Modal";
 
 class Cards extends Component {
     state = {
-        showModal:false,
+        showModal:true,
     }
     // method for click action on photo
     modalHandler = (photoId)=>{
