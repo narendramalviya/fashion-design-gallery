@@ -13,7 +13,6 @@ app.get('/home',(req,res)=> {
 })
 
 app.get('/fileUpload',(req,res)=> {
-    
     res.send('file uploaded successfully!!');
 })
 

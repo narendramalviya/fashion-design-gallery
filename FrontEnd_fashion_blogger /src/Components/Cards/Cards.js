@@ -20,12 +20,11 @@ class Cards extends Component {
 			cards.push(i);
         }  
 		const allMappedCards = cards.map((val, index) => (
-			<li key={index}>
-			
+			<li key={index}>			
 				<Card num={index} />{" "}
 			</li>
         ));
-        
+      
 		return (
 			<div className="jumbotron bg-white ">
 				<Fragment>

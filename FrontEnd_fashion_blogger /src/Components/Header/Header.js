@@ -6,7 +6,7 @@ class Header extends Component {
 	render() {
 		return (
 			<div>
-				<nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+				<nav className="navbar navbar-expand-lg navbar-light" style={{'backgroundColor': '#e3f2fd'}} >
 					<a className="navbar-brand" href="/">
 						Navbar
 					</a>
@@ -24,7 +24,7 @@ class Header extends Component {
 					<div className="collapse navbar-collapse" id="navbarNav">
 						<ul className="navbar-nav">
 							<li className="nav-item">
-								<Link to="/" ClassName="selected">
+								<Link to="/" className="selected">
 									Home
 								</Link>
 							</li>

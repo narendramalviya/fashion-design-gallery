@@ -5,7 +5,7 @@ class Card extends Component {
 		return (
 			
 				<div
-					class="card shadow m-2 bg-white rounded"
+					className="card shadow m-2 bg-white rounded"
 					style={{ width: "18rem" }}
 				>
 					<img

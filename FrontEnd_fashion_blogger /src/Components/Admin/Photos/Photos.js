@@ -18,6 +18,7 @@ class Photos extends Component {
 	};
 
 	submitHandler = () => {
+		// TODO: post request to send photos to database
 		alert("upload clicked");
 	};
 
