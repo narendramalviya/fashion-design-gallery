@@ -12,8 +12,8 @@ class Card extends Component {
 		console.log('card rerenderd!!');
 		return (
 				<div
-					className="card shadow m-2 bg-white rounded"
-					style={{ width: "10rem" }}
+					className="card shadow m-1 bg-white rounded"
+					style={{ width: "60px" }}
 					onClick={clickHandler}
 				>
 					<img
