@@ -16,7 +16,7 @@ class Cards extends Component {
   
 	render() {
         let cards = [];      
-		for (let i = 0; i < 20; i++) {
+		for (let i = 0; i < 50; i++) {
 			cards.push(i);
         }  
 		const allMappedCards = cards.map((val, index) => (

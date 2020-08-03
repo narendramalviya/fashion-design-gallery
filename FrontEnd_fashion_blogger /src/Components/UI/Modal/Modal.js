@@ -22,7 +22,7 @@ const Modal = () => {
 			>
 				<div className="modal-dialog" role="document">
 					<div className="modal-content">
-						<h1>hi</h1>
+						
 					</div>
 				</div>
 			</div>

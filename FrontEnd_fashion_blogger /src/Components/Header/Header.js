@@ -8,7 +8,7 @@ class Header extends Component {
 			<div>
 				<nav className="navbar navbar-expand-lg navbar-light" style={{'backgroundColor': '#e3f2fd'}} >
 					<a className="navbar-brand" href="/">
-						Navbar
+						Fasion collection
 					</a>
 					<button
 						className="navbar-toggler"
@@ -24,9 +24,9 @@ class Header extends Component {
 					<div className="collapse navbar-collapse" id="navbarNav">
 						<ul className="navbar-nav">
 							<li className="nav-item">
-								<Link to="/" className="selected">
+								<NavLink to="/" className="selected">
 									Home
-								</Link>
+								</NavLink>
 							</li>
 							<li className="nav-item">
 								<NavLink to="/admin" activeClassName="selected">

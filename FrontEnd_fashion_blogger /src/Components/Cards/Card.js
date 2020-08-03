@@ -1,21 +1,29 @@
 import React, { Component } from "react";
 
 class Card extends Component {
+	 state = {
+		 clicked:false
+	 }
 	render() {
+		const clickHandler = ()=>{
+			console.log('photo clicked!!');
+			this.setState({clicked:!this.state.clicked});
+		}
+		console.log('card rerenderd!!');
 		return (
-			
 				<div
 					className="card shadow m-2 bg-white rounded"
-					style={{ width: "18rem" }}
+					style={{ width: "10rem" }}
+					onClick={clickHandler}
 				>
 					<img
 						src={`https://picsum.photos/600/${700+this.props.num}/?random`}
 						className="card-img-top rounded-lg"
 						alt="..."
 					/>
-					{/* <div className="card-body">
-					
-					</div> */}
+				{	this.state.clicked ? <div className="card-body"> 
+					   photo clicked!!
+					</div> : null}
 				</div>
 			
 		);
